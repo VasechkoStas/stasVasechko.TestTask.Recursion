@@ -17,7 +17,7 @@ public class Company {
     @Override
     public String toString() {
         return "Company{" +
-                "parent=" + parent +
+                "parent = " + parent +
                 '}';
     }
 
