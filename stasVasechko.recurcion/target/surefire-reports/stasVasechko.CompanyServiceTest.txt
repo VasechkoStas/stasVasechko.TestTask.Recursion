@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: stasVasechko.CompanyServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in stasVasechko.CompanyServiceTest
+whenCompanyNotSingleThenGetTopCompany  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at stasVasechko.CompanyServiceTest.whenCompanyNotSingleThenGetTopCompany(CompanyServiceTest.java:27)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at stasVasechko.CompanyServiceTest.whenCompanyNotSingleThenGetTopCompany(CompanyServiceTest.java:27)
+
+whenCompanySingleThenTopSameCompany  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at stasVasechko.CompanyServiceTest.whenCompanySingleThenTopSameCompany(CompanyServiceTest.java:18)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at stasVasechko.CompanyServiceTest.whenCompanySingleThenTopSameCompany(CompanyServiceTest.java:18)
+
+whenCompanyNotSingleThenGetParent  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at stasVasechko.CompanyServiceTest.whenCompanyNotSingleThenGetParent(CompanyServiceTest.java:84)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at stasVasechko.CompanyServiceTest.whenCompanyNotSingleThenGetParent(CompanyServiceTest.java:84)
+
+whenCompanySingleThenCountEmployeeSameCompany  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at stasVasechko.CompanyServiceTest.whenCompanySingleThenCountEmployeeSameCompany(CompanyServiceTest.java:42)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at stasVasechko.CompanyServiceTest.whenCompanySingleThenCountEmployeeSameCompany(CompanyServiceTest.java:42)
+
+whenCompanyTreeThenCountEmployeeAllCompanys  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at stasVasechko.CompanyServiceTest.whenCompanyTreeThenCountEmployeeAllCompanys(CompanyServiceTest.java:67)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at stasVasechko.CompanyServiceTest.whenCompanyTreeThenCountEmployeeAllCompanys(CompanyServiceTest.java:67)
+
